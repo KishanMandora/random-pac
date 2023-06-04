@@ -6,7 +6,8 @@
   "scripts": {
     "test": "",
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+    "lint": "tsc",
+    "ci": "npm run lint && npm run build"
   },
   "author": "Kishan Mandora",
   "license": "ISC",
