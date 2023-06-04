@@ -1,0 +1,16 @@
+{
+  "name": "random-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "author": "Kishan Mandora",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "tsup": "^6.7.0",
+    "typescript": "^5.1.3"
+  }
+}
