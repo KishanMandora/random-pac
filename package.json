@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc"
   },
