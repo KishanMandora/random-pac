@@ -3,7 +3,7 @@ name: Random-pac Node.js Package
 on:
   push:
     branches:
-      - "**"
+      - main
   release:
     types: [created]
 
